@@ -166,6 +166,12 @@ ul {
     font-size: 0.8rem;
 }
 
+.overlay .overlay-background .overlay-text .tag-btn {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    display: none;
+}
+
 
 .overlay .overlay-background .overlay-text .title {
     font-size: 2.5rem;
@@ -525,4 +531,52 @@ footer p {
 footer a {
     color: var(--clr-primary);
     text-decoration: underline;
+}
+
+@media (max-width: 991.98px) {
+    .header .nav-menu .hidden {
+        display: none !important;
+    }
+
+    .header .header-container {
+        justify-content: center;
+    }
+
+    .overlay-background {
+        position: relative !important;
+        background: none !important;
+        text-align: center;
+    }
+
+    .overlay-text {
+        color: black !important;
+        width: 100% !important;
+        text-align: center;
+        margin: 25px 70px !important;
+    }
+
+    .overlay .tag-btn {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    display: inline-block !important;
+    }
+
+    .opiniao .col-lg-6 .picture {
+    background: none;
+    padding: 0;
+    width: 55%;
+}
+
+    .opiniao .col-lg-6 .picture img {
+        width: 100% !important;
+    }
+
+}
+
+@media (max-width: 767.98px) {
+    .navbar ul li {
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+    }
 }
