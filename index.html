@@ -24,19 +24,19 @@
 <body id="body">
     <!-- HEADER SECTION START -->
     <header class="header">
-        <div class="header-container container-fluid">
+        <div class="header-container container-fluid" id="teste">
             <ul class="nav-menu nav-left">
                 <li><a href="#" title="Navegação"><i class="fa-solid fa-bars"></i></a></li>
-                <li><a href="#" title="Pesquisa"><i class="fa-solid fa-magnifying-glass"></i></a></li>
-                <li><a href="#" title="Oiça a Rádio Observador em direto"><i class="fa-solid fa-podcast"></i><span>OUVIR RÁDIO</span></a></li>
+                <li class="hidden"><a href="#" title="Pesquisa"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                <li class="hidden"><a href="#" title="Oiça a Rádio Observador em direto"><i class="fa-solid fa-podcast"></i><span>OUVIR RÁDIO</span></a></li>
             </ul>
             <a href="#">
                 <h1 class="header-logo"><span>O</span>bservador</h1>
             </a>
             <ul class="nav-menu nav-right">
                 <li class="btn" title="Assine o jornalismo que faz a diferença">Assinar</li>
-                <li><a href="#" title="Alertas"><i class="fa-solid fa-bell"></i></a></li>
-                <li><a href="#" title="Faça login"><i class="fa-solid fa-user"></i></a></li>
+                <li class="hidden"><a href="#" title="Alertas"><i class="fa-solid fa-bell"></i></a></li>
+                <li class="hidden"><a href="#" title="Faça login"><i class="fa-solid fa-user"></i></a></li>
             </ul>
         </div>
     </header>
@@ -84,6 +84,7 @@
                 <span class="tag">Operação Marquês</span>
                 <h2 class="title">Salgado diz que não está em condições de falar</h2>
                 <p class="description">O antigo presidente do BES foi acusado de três crimes de abuso de confiança num processo extraído da Operação Marquês e está pela primeira vez no julgamento. MP pede que seja condenado a 10 anos.</p>
+                <span class="tag-btn"><a href="">LER MAIS</a></span>
             </div>
         </div>
     </section>
@@ -91,14 +92,14 @@
     <section class="noticias">
         <div class="container-fluid">
             <div class="row">
-                <div class="col col-lg-3 col-sm-12">
+                <div class="col col-md-3">
                     <img class="thumbnail" src="https://bordalo.observador.pt/v2/q:85/rs:fill:770:433/c:770:433:nowe:0:0/plain/https://s3.observador.pt/wp-content/uploads/2022/02/01223210/770-justica-slb-2022.jpg" alt="">
                     <span class="tag">Justiça</span>
                     <h3 class="title">Benfica. Como as transências fogem ao Fisco</h3>
                     <span class="comments"><i class="fa-solid fa-message"></i> 16</span>
                     <p class="description">Série "Investigação ao Futebol". Só o Benfica, Jorge Mendes e 7 jogadores terão prejudicado o fisco em pelo menos 23 milhões de euros. Bernardo Silva terá assessorado a sua própria transferência.</p>
                 </div>
-                <div class="col col-lg-3 col-sm-12">
+                <div class="col col col-md-3">
                     <a href="">
                         <img class="thumbnail" src="https://bordalo.observador.pt/v2/q:85/rs:fill:770:433/c:770:433:nowe:0:0/plain/https://s3.observador.pt/wp-content/uploads/2022/01/06011614/770-contra-corrente-jmf-e-helena-matos.jpg" alt="">
                         <span class="tag">Justiça</span>
@@ -107,7 +108,7 @@
                         <p class="description">Quase dois terços do eleitorado tem os rendimentos na dependência direta do Estado. De que forma isso pode ter impacto nas eleições? Envie mensagem gravada para o 910024185 e entre no Contra-Corrente.</p>
                     </a>
                 </div>
-                <div class="col col-latest col-lg-3 col-sm-12">
+                <div class="col col-latest col col-lg-3 col-md-6">
                     <h3 class="title">Últimas</h3>
                     <ul>
                         <li>
@@ -155,7 +156,7 @@
         <div class="container-fluid">
             <h2 class="header">Opinião</h2>
             <div class="row">
-                <div class="col col-lg-6 col-sm-12">
+                <div class="col col-lg-6 col-md-4">
                     <div class="picture">
                         <img src="https://bordalo.observador.pt/v2/q:85/rs:fill:467:467/c:467:467:nowe:0:0/plain/https://s3.observador.pt/wp-content/uploads/2019/03/20170446/patricia-fernandes_ubi_003_websitejoaopedrosilva_467x467_acf_cropped.jpg" alt="">
                     </div>
@@ -167,7 +168,7 @@
                         <em>Os estudos destes dois anos revelam que a pandemia tendeu a reforçar o poder dos governos que alimentaram e geriram de forma adequada o medo das populações. Costa foi especialmente hábil nessa gestão.</em>
                     </p>
                 </div>
-                <div class="col col-lg-3 col-sm-12">
+                <div class="col col-lg-3 col-md-4">
                     <div class="picture">
                         <img src="https://bordalo.observador.pt/v2/q:85/rs:fill:467:467/c:467:467:nowe:0:0/plain/https://s3.observador.pt/wp-content/uploads/2019/09/16155823/1q9a6578_467x467_acf_cropped.jpg" alt="">
                     </div>
@@ -179,7 +180,7 @@
                         <em>Não se deve perder de vista é que um acto de violência sem motivações religiosas ou políticas, podendo não ser terrorista, pretende intimidar pelo terror. Só por isso tem de merecer discussão pública.</em>
                     </p>
                 </div>
-                <div class="col col-lg-3 col-sm-12">
+                <div class="col col-lg-3 col-md-4">
                     <div class="picture">
                         <img src="https://bordalo.observador.pt/v2/q:85/c:1544:1544:nowe:700:0/rs:fill:250/f:webp/plain/https://s3.observador.pt/wp-content/uploads/2021/11/25185832/20211125filipeamorim3011.jpg" alt="">
                     </div>
@@ -199,14 +200,14 @@
         <div class="container-fluid">
             <h2 class="header">Noticias</h2>
             <div class="row g-5">
-                <div class="col col-lg-3 col-sm-12">
+                <div class="col col-lg-3 col-md-4 col-sm-4 col-xs-12">
                     <img class="thumbnail" src="https://bordalo.observador.pt/v2/q:85/c:4096:2301:nowe:0:257/rs:fill:300/f:webp/plain/https://s3.observador.pt/wp-content/uploads/2022/02/05144125/GettyImages-1368290793-scaled.jpg" alt="">
                     <span class="tag">Coronavírus</span>
                     <h3 class="title">Boletim. Internamentos em UCI descem pelo 11º dia</h3>
                     <span class="comments"><i class="fa-solid fa-message"></i> 12</span>
                     <p class="description">Segundo os dados, há menos dez doentes com Covid-19 nas unidades de cuidados intensos dos hospitais portugueses, num total de 101. Este é o número mais baixo desde 29 de novembro.</p>
                 </div>
-                <div class="col col-lg-3 col-sm-12">
+                <div class="col col-lg-3 col-md-4 col-sm-4 col-xs-12">
                     <a href="">
                         <img class="thumbnail" src="https://bordalo.observador.pt/v2/q:85/rs:fill:770:433/c:770:433:nowe:0:0/plain/https://s3.observador.pt/wp-content/uploads/2022/01/06011614/770-contra-corrente-jmf-e-helena-matos.jpg" alt="">
                         <span class="tag">Privatizações</span>
@@ -215,14 +216,14 @@
                         <p class="description">A Efacec deverá ser vendida à DST. A conclusão das negociações deverá levar o dossiê a conselho de ministros. Vários jornais avançam venda, mas Governo não fala.</p>
                     </a>
                 </div>
-                <div class="col col-lg-3 col-sm-12">
+                <div class="col col-lg-3 col-md-4 col-sm-4 col-xs-12">
                     <img class="thumbnail" src="https://bordalo.observador.pt/v2/q:85/c:3327:1872:nowe:21:936/rs:fill:300/f:webp/plain/https://s3.observador.pt/wp-content/uploads/2022/02/23165708/GettyImages-1238684884.jpg" alt="">
                     <span class="tag">Conflito na Ucrânia</span>
                     <h3 class="title">Banca nacional tem 132 milhões de euros na Rússia</h3>
                     <span class="comments"><i class="fa-solid fa-message"></i> 23</span>
                     <p class="description">Maiores bancos, questionados pelo Observador, dizem ter pouca ou nenhuma exposição à Rússia (e à Ucrânia). Mas dados do BIS apontam para 132 milhões de euros que ligam a banca portuguesa a Moscovo.</p>
                 </div>
-                <div class="col col-lg-3 col-sm-12">
+                <div class="col col-lg-3 col-md-4 col-sm-4 col-xs-12">
                     <a href="">
                         <img class="thumbnail" src="https://bordalo.observador.pt/v2/q:85/c:2000:1126:nowe:0:207/rs:fill:300/f:webp/plain/https://s3.observador.pt/wp-content/uploads/2022/02/23192125/35801863.jpg" alt="">
                         <span class="tag">Papa Francisco</span>
@@ -231,14 +232,14 @@
                         <p class="description">Para Marcelo, o Papa Francisco tem realizado "intervenções públicas" para tentar pacificar a situação na Ucrânia, sugerindo que a Santa Sé tem também tido "intervenções diplomáticas discretas".</p>
                     </a>
                 </div>
-                <div class="col col-lg-3 col-sm-12">
+                <div class="col col-lg-3 col-md-4 col-sm-4 col-xs-12">
                     <img class="thumbnail" src="https://bordalo.observador.pt/v2/q:85/c:2000:1126:nowe:0:207/rs:fill:300/f:webp/plain/https://s3.observador.pt/wp-content/uploads/2021/12/11142008/34840358.jpg" alt="">
                     <span class="tag">coronavírus</span>
                     <h3 class="title">Temido admite isolamento só com declaração médica</h3>
                     <span class="comments"><i class="fa-solid fa-message"></i>16</span>
                     <p class="description">Internamentos descem e incidência por 100 mil habitantes também. Indicador de transmissibilidade aumentou ligeiramente. Houve 13.158 novos casos e 28 mortes atribuídas à doença.</p>
                 </div>
-                <div class="col col-lg-3 col-sm-12">
+                <div class="col col-lg-3 col-md-4 col-sm-4 col-xs-12">
                     <a href="">
                         <img class="thumbnail" src="https://bordalo.observador.pt/v2/q:85/c:3000:1689:nowe:0:200/rs:fill:300/f:webp/plain/https://s3.observador.pt/wp-content/uploads/2022/02/23163053/jorge-rebelo-de-almeida-1.jpg" alt="">
                         <span class="tag">Turismo</span>
@@ -247,7 +248,7 @@
                         <p class="description">Presidente da Vila Galé defende que maioria absoluta, com milhões do PRR, criou todas as condições para decidir aeroporto e relançar a TAP, que deve envolver privados e um Governo flexível a negociar.</p>
                     </a>
                 </div>
-                <div class="col col-latest col-lg-3 col-sm-12">
+                <div class="col col-latest col-lg-3 col-sm-4 col-md-4 col-xs-12">
                     <h3 class="title">Mais Populares</h3>
                     <ul>
                         <li>
