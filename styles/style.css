@@ -534,11 +534,6 @@ footer a {
     color: var(--clr-primary);
 }
 
-footer a:hover {
-    color: var(--clr-primary);
-    text-decoration: underline;
-}
-
 
 @media (max-width: 991.98px) {
     .header .nav-menu .hidden {
